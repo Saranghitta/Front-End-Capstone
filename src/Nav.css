@@ -1,0 +1,17 @@
+nav{
+    display: flex;
+    justify-content: center;
+    background-color: #EDEFEE;
+    width: 100%
+}
+nav ul {
+    display: flex;
+    gap: 7vw;
+    list-style: none;
+}
+nav a {
+    font-size: 1.404vw;
+    color: #495E57;
+    text-decoration: none;
+    font-weight: bold;
+}

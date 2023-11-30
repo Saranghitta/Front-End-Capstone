@@ -1,0 +1,41 @@
+.hero-container {
+    display: flex;
+    background-color: #495E57;
+    width: 100%;
+}
+.hero-container article{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    padding: 2vw;
+    height: 100%;
+    color: #EDEFEE;
+}
+.hero-container article h1 {
+    font-size: 5.618vw;
+    margin: 0.65vw;
+}
+.hero-container article h2 {
+    font-size: 3.511vw;
+    margin: 0.65vw;
+}
+.hero-container article p {
+    font-size: 1.404vw;
+    margin: 0.65vw;
+}
+.hero-container a button {
+    margin: 0.65vw;
+    color: #EDEFEE;
+    font-weight: bold;
+    font-size: 1.58vw;
+    background-color: #F4CE14;
+    cursor: pointer;
+    border: none;
+    border-radius: 1vw;
+    padding: 1vw;
+}
+.hero-container img {
+    width: 50vw;
+    height: auto;
+}

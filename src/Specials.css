@@ -1,0 +1,29 @@
+.specials-container {
+    display: flex;
+    flex-direction: column;
+    background-color: #EDEFEE;
+    width:100%;
+}
+.specials-title{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0.65vw;
+    padding-left: 4vw;
+    padding-right: 4vw;
+
+}
+.specials-title h1 {
+    font-size:5.618vw;
+    color: #495E57;
+}
+.specials-title a button{
+    padding: 1vw;
+    border:none;
+    border-radius: 1vw;
+    font-size: 1.58vw;
+    font-weight: bold;
+    background-color: #F4CE14;
+    color: #EDEFEE;
+}

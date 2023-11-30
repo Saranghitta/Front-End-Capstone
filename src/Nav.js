@@ -1,18 +1,20 @@
-import React from "react"
+import React from "react";
+import { Link } from "react-router-dom";
+import "./Nav.css";
 
-function Nav (){
-    return(
-        <nav>
-            <ul>
-                <li><a href="/">Home</a></li>
-                <li><a href="/about">About</a></li>
-                <li><a href="/reserve">Reservations</a></li>
-                <li><a href="/menu">Menu</a></li>
-                <li><a href="/order">Order Online</a></li>
-                <li><a href="/login">Login</a></li>
-            </ul>
-        </nav>
-    )
+function Nav() {
+  return (
+    <nav>
+      <ul>
+        <li><Link to="/">HOME</Link></li>
+        <li><Link to="/about">ABOUT</Link></li>
+        <li><Link to="/reserve">RESERVATIONS</Link></li>
+        <li><Link to="/menu">MENU</Link></li>
+        <li><Link to="/order">ORDER ONLINE</Link></li>
+        <li><Link to="/login">LOGIN</Link></li>
+      </ul>
+    </nav>
+  );
 }
 
-export default Nav
+export default Nav;

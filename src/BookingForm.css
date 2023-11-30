@@ -1,0 +1,31 @@
+.form-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.form-header {
+    align-self: center;
+}
+
+.form-input {
+    display: flex;
+    align-self: center;
+    flex-direction: column;
+    gap: 2vh;
+    width: 50vw;
+    padding: 3vw;
+    color: #495e57;
+    font-weight: bold;
+}
+
+.form-submit {
+    margin: 0.65vw;
+    color: #EDEFEE;
+    font-weight: bold;
+    font-size: 1.58vw;
+    background-color: #F4CE14;
+    cursor: pointer;
+    border: none;
+    border-radius: 1vw;
+    padding: 1vw;
+}

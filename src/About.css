@@ -1,0 +1,17 @@
+.about-container {
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    padding: 8vw;
+    color: 3vw;
+}
+.about-info {
+    display: flex;
+    flex-direction: column;
+    color: #495E57;
+    justify-content: center;
+    margin-right: 3vw;
+}
+.about-info h1 {
+    font-size: 5.618vw;
+}

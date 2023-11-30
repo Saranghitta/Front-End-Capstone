@@ -1,0 +1,22 @@
+.booking-hero-container {
+    display: flex;
+    background-color: #495E57;
+    width: 100%;
+}
+.booking-hero-container article{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    padding: 2vw;
+    height: 100%;
+    color: #EDEFEE;
+}
+.booking-hero-container article h1 {
+    font-size: 5.618vw;
+    margin: 0.65vw;
+}
+.booking-hero-container article h2 {
+    font-size: 1.404vw;
+    margin: 0.65vw;
+}
